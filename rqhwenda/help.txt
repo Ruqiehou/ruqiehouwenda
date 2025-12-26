@@ -1,0 +1,3 @@
+放在 yourproject/plugins下 无需改动其他位置
+手动修改gly 和hmd两个列表
+允许修改 本就是基础功能
