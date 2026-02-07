@@ -24,9 +24,10 @@ class rqhwenda(NcatBotPlugin):
     async def wenda_chaxun(self, msg: GroupMessage):
         qunxiaoxi="".join(seg.text for seg in msg.message.filter_text())
         qunid=msg.group_id
-        shujiyuan=ans
+        with open("plugins/rqhwenda/ans.json", "r", encoding="utf-8") as f:
+              ans = json.load(f)
                 
-        if any(key in qunxiaoxi for key in shujiyuan):   
+        if any(key in qunxiaoxi for key in ans):   
             matched_key = next(key for key in shujiyuan if key in qunxiaoxi)
             await self.api.post_group_msg(qunid, text=shujiyuan[matched_key])  
 
@@ -157,4 +158,5 @@ class rqhwenda(NcatBotPlugin):
                 except FileNotFoundError:
                     await self.api.post_group_msg(group_id=qwq, text="清空问答失败")
             else:
+
                 pass
