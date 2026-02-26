@@ -1,0 +1,12 @@
+{
+    "1": {"name": "随机图片", "price": 10000, "description": "获取一张随机图片"},
+    "2": {"name": "专属称号", "price": 10000, "description": "获得一日专属称号"},
+    "3": {"name": "运势查询", "price": 500000, "description": "免费查询一次今日运势"},
+    "4": {"name": "高级称号", "price": 50000, "description": "获得一周专属称号"},
+    "5": {"name": "豪华礼包", "price": 10000, "description": "神秘豪华礼包"},
+    "6": {"name": "普通礼包", "price": 1000, "description": "一般积分礼包"},
+    "7": {"name": "随机减少积分", "price": 5000000, "description": "随机减少一位用户的积分"},
+    "8": {"name": "随机增加积分", "price": 5000000, "description": "随机增加一位用户的积分"},
+    "9": {"name": "天地同寿", "price": 1000000000, "description": "随机清零一个人的积分"}
+
+}
